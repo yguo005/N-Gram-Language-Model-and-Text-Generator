@@ -1,5 +1,5 @@
 # N-Gram-Language-Model-and-Text-Generator
-This project implements a classic N-gram language model from scratch in Python. The model is trained on the NLTK Gutenberg corpus and can generate new text based on a given prefix. It also includes a web-based user interface built with Streamlit for interactive text generation.
+This project implements a classic N-gram language model from scratch in Python. The model is trained on the NLTK Gutenberg corpus and can generate new text based on a given prefix. It also includes...
 
 This project was completed as part of the "DS 5983: Large Language Models" course (PA1).
 
@@ -29,7 +29,7 @@ Project Structure
 ├── requirements.txt    # Python dependencies for the project.
 └── README.md           # This file.
 Use code with caution.
-ngram.py: Contains all the core functions for building and evaluating the language model. This includes data loading, tokenization, n-gram frequency calculation, model building with Laplace smoothing, sentence generation, and perplexity computation.
+ngram.py: Contains all the core functions for building and evaluating the language model. This includes data loading, tokenization, n-gram frequency calculation, model building with Laplace smooth...
 app.py: Provides the front-end for the model. It imports functions from ngram.py, creates a user interface with Streamlit, and allows users to generate text interactively in their browser.
 How It Works
 1. Data Collection and Preprocessing
